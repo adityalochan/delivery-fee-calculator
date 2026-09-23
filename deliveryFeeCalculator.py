@@ -1,14 +1,3 @@
-# – Read two related values from the user, each with its own input call.
-# – Validate each value on its own, before either is used in a decision. A bad first value must not stop the second
-# from being validated.
-# – Reject a value that is outside a sensible range for that value, and say what the sensible range is.
-# – Combine the two validated values, using chained comparisons and Boolean operators, or nested and chained if,
-# elif and else, so that the outcome for the second value depends on what the first one was.
-# – Produce at least four distinct outcomes, not merely four print statements that say almost the same thing.
-# – Print a clearly formatted result using an f-string that reports both values and the outcome together.
-# – Use variable names that describe what they hold, and comments marking the sections of your program:
-# reading and validating each value, and combining them
-
 order_total = float(input('Enter the order total in dollars: E.g. 25 :: '))
 delivery_date = input('Enter the delivery day (e.g. Saturday) :: ').lower()
 
