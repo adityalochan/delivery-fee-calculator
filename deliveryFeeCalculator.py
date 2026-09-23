@@ -1,5 +1,5 @@
 order_total = float(input('Enter the order total in dollars: E.g. 25 :: '))
-delivery_date = input('Enter the delivery day (e.g. Saturday) :: ').lower()
+delivery_date = input('Enter the delivery day (e.g. Saturday) :: ').strip().lower()
 
 if not (0 <= order_total <= 1000):
     print('Order total must be between 0 and 1000')

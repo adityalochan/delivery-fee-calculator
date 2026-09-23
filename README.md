@@ -14,5 +14,4 @@ Enter the order total in dollars: 25
 Enter the delivery day (e.g. Saturday): saturday
 Order: $25.00 on Saturday. Delivery fee: $6.99. Weekend small-order surcharge applies.
 ## Known limitations
-Anything you are aware of that does not work, or that you would improve
-with more time.
+Edge cases might fail
